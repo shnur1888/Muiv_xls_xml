@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MUIV\\Muiv_xls_xml\\ConsoleApp2\\ConsoleApp2\\Muiv_Xls_Xml.csproj": {}
+  },
+  "projects": {
+    "D:\\MUIV\\Muiv_xls_xml\\ConsoleApp2\\ConsoleApp2\\Muiv_Xls_Xml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MUIV\\Muiv_xls_xml\\ConsoleApp2\\ConsoleApp2\\Muiv_Xls_Xml.csproj",
+        "projectName": "Muiv_Xls_Xml",
+        "projectPath": "D:\\MUIV\\Muiv_xls_xml\\ConsoleApp2\\ConsoleApp2\\Muiv_Xls_Xml.csproj",
+        "packagesPath": "C:\\Users\\Win10_Game_OS\\.nuget\\packages\\",
+        "outputPath": "D:\\MUIV\\Muiv_xls_xml\\ConsoleApp2\\ConsoleApp2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Win10_Game_OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Aspose.Cells": {
+              "target": "Package",
+              "version": "[21.10.0, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Spire.XLS": {
+              "target": "Package",
+              "version": "[11.10.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
