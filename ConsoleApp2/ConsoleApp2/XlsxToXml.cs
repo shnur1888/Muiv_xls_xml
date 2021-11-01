@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ConsoleApp2
 {
-    class XlsxToXml : IConvertable
+    class XlsxToXml 
     {
 
         public string Convert(Stream memStream)

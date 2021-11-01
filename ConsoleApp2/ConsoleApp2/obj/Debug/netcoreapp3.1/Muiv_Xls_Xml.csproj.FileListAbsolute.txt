@@ -40,3 +40,4 @@ D:\MUIV\Muiv_xls_xml\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\Muiv_Xls_Xm
 D:\MUIV\Muiv_xls_xml\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\Muiv_Xls_Xml.dll
 D:\MUIV\Muiv_xls_xml\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\Muiv_Xls_Xml.pdb
 D:\MUIV\Muiv_xls_xml\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\Muiv_Xls_Xml.genruntimeconfig.cache
+D:\MUIV\Muiv_xls_xml\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\Muiv_Xls_Xml.csproj.AssemblyReference.cache
