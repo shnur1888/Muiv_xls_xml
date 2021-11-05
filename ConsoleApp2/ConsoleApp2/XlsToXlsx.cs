@@ -8,14 +8,14 @@ namespace ConsoleApp2
     public class XlsToXlsx
     {
 
-        public void ConvertToXlsxFile(string xlsPath, string destPath)
+        public void ConvertToXlsxFile(string xlsPath, string xlsxPath)
         {
 
 
-            String dirPath = @"C:\Users\Win10_Game_OS\OneDrive\Рабочий стол\ffff\fff.xls";
+           
             Workbook workbook = new Workbook();
             workbook.LoadFromFile(xlsPath);
-            workbook.SaveToFile(destPath, ExcelVersion.Version2013);
+            workbook.SaveToFile(xlsxPath, ExcelVersion.Version2013);
 
 
 
