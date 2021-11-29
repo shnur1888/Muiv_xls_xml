@@ -14,15 +14,14 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
 
-               Console.WriteLine(GetXmlFromXls(@"C:\Users\Win10_Game_OS\OneDrive\Рабочий стол\ffff\fff.xls", @"C:\Users\Win10_Game_OS\OneDrive\Рабочий стол\ffff\ddd.xlsx"));
-
-               Console.WriteLine(GetXmlFromXlsx(@"C:\Users\Win10_Game_OS\OneDrive\Рабочий стол\ffff\ddd.xlsx"));
 
 
+            String[] dirs = GetDirs.GetAllDirs(@"C:\Users\Win10_Game_OS\OneDrive\Рабочий стол\ffff");
 
-        
 
 
+            for (int i = 0; i < dirs.Length; i++)
+                Console.WriteLine(dirs[i]);
 
 
 
